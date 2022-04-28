@@ -1,5 +1,7 @@
 # README
 
+todo: try out `glibc` from gnu.
+
 For live monitoring use: `cmon fileName.c`.
 
 Src: https://www.w3schools.com/c/c_intro.php
