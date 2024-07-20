@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-void main() {
-	int day = 4;
+int main() {
+	int day = 7;
 
-	// TODO: Add the default case in switch
 	switch (day) {
 	  case 1:
 		printf("Monday");
@@ -27,7 +26,11 @@ void main() {
 		printf("Sunday");
 		break;
 	  default:
-		printf("Invalid number for the day input");
+		printf("Please chooose 0 to 7 value for day input number");
+
+		// Below `break` statement is optional but recommended when default case is not the last one in the switch statement prevent unintentional fall-through. Note: While it's not strictly necessary to use a `break` statement in default case though it is a good practice.
+		break; 
 	}
+	return 0;
 }
 

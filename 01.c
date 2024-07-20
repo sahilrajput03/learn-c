@@ -1,9 +1,14 @@
 #include <stdio.h>
 
-void main() {
-  printf("Hello World!"); // This is how we print.
-  // Note only double quotes are allowed.
+int main() {
+  // Print a string. Note: Only double quotes are allowed.
+  printf("Hello World!");
+
+  // We have to return int otherwise c compiler throws warning "main function return type is not int".
+  return 0;
 }
+
+// Single line comment
 
 /*
  * This is a
