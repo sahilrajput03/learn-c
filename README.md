@@ -6,6 +6,19 @@ todo: try out `glibc` from gnu.
 
 For live monitoring use: `cmon fileName.c`.
 
+## Usage: Use `cmon` with below code to run in watch mode:
+
+```c
+cmon (){
+	# with dhanur.. (works on windows using git-bash).
+	# nodemon -q -e c -x "gcc $* -o binary && binary || exit 0"
+
+	# with dhanur.. (works on linux on ubuntu as well).
+	nodemon -q -e c -x "gcc $* -o binary && ./binary || exit 0" # We exit with zero coz we don't want nodemon to stop even when the program throws a non zero return code(i.e., compiler throws exception).
+}
+```
+
+
 Src: https://www.w3schools.com/c/c_intro.php
 
 ## What is C?
