@@ -2,6 +2,8 @@
 
 todo: try out `glibc` from gnu.
 
+- **Doc: Learn IoT and C with Sahil: [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.2y4mxxwdk1xh)**
+
 For live monitoring use: `cmon fileName.c`.
 
 Src: https://www.w3schools.com/c/c_intro.php
