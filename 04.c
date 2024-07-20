@@ -3,6 +3,7 @@
 void main() {
 	int day = 4;
 
+	// TODO: Add the default case in switch
 	switch (day) {
 	  case 1:
 		printf("Monday");
@@ -25,6 +26,8 @@ void main() {
 	  case 7:
 		printf("Sunday");
 		break;
+	default:
+		printf("Invalid number for the day input");
 	}
 }
 
